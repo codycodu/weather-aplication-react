@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 
 function App() {
@@ -5,23 +6,22 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <footer>
-        This project was coded by
+        This project was coded by {""}
         <a
           href="https://www.codruta-blaga.com/"
           target="_blank"
           rel="noreferrer"
         >
-          Codruta Blaga
+          Codruta Blaga {""}
         </a>
-        and is
+        and is {""}
         <a
           href="https://github.com/codycodu/weather-aplication-react"
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
+          open-sourced on GitHub.
         </a>
-        open-sourced on GitHub
       </footer>
     </div>
   );
